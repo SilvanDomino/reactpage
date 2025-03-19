@@ -2,6 +2,7 @@
 layout: home
 title: Opdrachten inleveren
 nav_order: 1
+permalink: /instructie/
 ---
 
 # Opdrachten maken en inleveren

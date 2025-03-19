@@ -2,6 +2,7 @@
 layout: home
 title: Overzicht
 nav_exclude: true
+permalink: /overzicht/
 ---
 
 #  Overzicht uit Educator
