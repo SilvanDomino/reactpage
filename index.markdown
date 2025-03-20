@@ -23,7 +23,7 @@ Je gaat werken in een lege repository.
 {% assign today = "now"|date:"%Y%m%d" %}
 {% assign lesson_date = lesson.datum|date:"%Y%m%d" %}
 
-{% if lesson_date <= today or site.bap.skip_date_check%}
+{% if lesson_date <= today or site.settings.skip_date_check%}
 ## Les {{ lesson.number }}:  {{ lesson.title }}
 {: .text-blue-100 :}
 

@@ -28,7 +28,8 @@ github_username:  SilvanDomino
 email: s.herrema@ma-web.nl
 
 # Build settings
-remote_theme: just-the-docs
+theme: just-the-docs
+color_scheme: dark
 #plugins:
 #  - jekyll-feed
 

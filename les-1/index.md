@@ -1,5 +1,5 @@
 ---
-title: Les 1
+title: Les 1 - React Project aanmaken
 layout: page
 nav_order: 3
 has_toc: false
