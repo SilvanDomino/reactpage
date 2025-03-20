@@ -1,7 +1,6 @@
 ---
 layout: home
 title: Overzicht
-nav_exclude: true
 permalink: /overzicht/
 ---
 
@@ -10,19 +9,12 @@ permalink: /overzicht/
 
 ### Week 1
 
-- Installatie webserver, database server en PHP programmeertaal:
-- Webserver: XAMPP (Windows) of MAMP (Mac)
-- Database: MySQL
-- Configuratie ontwikkel - en productieomgeving
 
 ### Week 2
 
-- Basis programmeerkennis gebruiken in PHP
 
 ### Week 3
 
-- Flow control van je code
-- Loops en conditionals: if-statement, for-loop
 
 ### Week 4
 

@@ -19,21 +19,25 @@
 # in the templates via {{ site.myvariable }}.
 
 title: M8 React classes
-email: s.herrema@ma-web.nl
 description: >- # this means to ignore newlines until "baseurl:"
   Welkom bij de lessenreeks voor de M8 React lessen.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://silvandomino.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
 github_username:  SilvanDomino
+email: s.herrema@ma-web.nl
 
 # Build settings
-theme: minima
-plugins:
-  - jekyll-feed
+theme: just-the-docs
+#plugins:
+#  - jekyll-feed
 
 search_enabled: false
 heading_anchors: false
+
+settings:
+#  assignment_url: https://classroom.github.com/a/a3oV1MzV
+  skip_date_check: true
 
 # Exclude from processing.
 # The following items will not be processed, by default.
