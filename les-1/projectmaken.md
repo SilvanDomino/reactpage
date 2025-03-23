@@ -18,7 +18,10 @@ Met dit commando activeren we het `dev` script. Wat dat script doet staat ook be
 Maak de CSS bestanden leeg. We gaan onze eigen CSS schrijven.
 Open `App.jsx`, en haal het meeste weg. Alleen het volgende moet overblijven. 
 
-```js
+app.js  
+{: .code-label }
+
+```js 
 import './App.css'
 
 function App() {
