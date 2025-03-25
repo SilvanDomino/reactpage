@@ -1,6 +1,6 @@
 ---
-layout: home
 title: Les 2 - Componenten maken
+layout: default
 ---
 
 # Les2 Eigen components

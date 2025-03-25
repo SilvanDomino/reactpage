@@ -1,14 +1,19 @@
 ---
 has_toc: false
 nav_exclude: true
+layout: default
 ---
 
 # React project aanmaken
 
-`npm create vite@latest`
+Het aanmaken van een React project gebeurt kan op verschillende manieren.
 
-Volg het menu. Gebruik geen typescript aub
+|Vite|Handmatig|
+|-----|--------|
+`npm create vite@latest`<br>`npm install`| - Projectmap aanmaken. <br>- NPM initialiseren.<br>- React en ReactDOM installeren. <br>- Webpack en Babel installeren.<br>- Project structuur aanmaken.<br>- Babel configureren.<br>- Webpack configureren.<br>- index.html aanmaken.<br>- React code schrijven om framework op te starten. 
 
+1. npm create vite@latest
+De Node Package Manager maakt 
 2. npm install
 Met npm installeren we alle nodige node packages. Welke node packages dat zijn staat beschreven in `package.json`. 
 3. npm run dev
