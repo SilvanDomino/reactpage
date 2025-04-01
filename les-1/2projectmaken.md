@@ -37,3 +37,11 @@ function App() {
 
 export default App
 ```
+
+## Open de applicatie in de browser
+Wanneer je `npm run dev` hebt uitgevoerd in de terminal, wordt er niet alleen een development server aangezet, ook wordt jouw hele project gebundelt. Iedere keer als je iets wijzigt aan jouw project wordt dit automatisch verwerkt. Open jouw website. Als het goed is zie je het volgende:
+
+![HTML](./images/nieuwproject.png)
+
+Het volgende hoofdstuk gaan we aan de slag met JSX, en beginnen met het bouwen van een website. 
+[Volgend hoofdstuk: JSX](3jsx)

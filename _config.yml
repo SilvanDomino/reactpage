@@ -29,7 +29,7 @@ email: s.herrema@ma-web.nl
 
 # Build settings
 theme: just-the-docs
-color_scheme: dark
+color_scheme: m9react
 #plugins:
 #  - jekyll-feed
 

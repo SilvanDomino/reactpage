@@ -24,4 +24,4 @@ Populaire alternatieve Javascript library/frameworks zijn
 
 Al deze JavaScript libraries/frameworks hebben hun eigen voor en nadelen. Website performance, development gemak, ecosystem, community, code complexiteit en baanaanbod zijn allemaal overwegingen die je kan maken om voor een bepaald library/framework. React is eenvoudig om aan te beginnen en de community is gigantisch. 
 
-[React project aanmaken](projectmaken)
+[Volgend hoofdstuk: React project aanmaken](2projectmaken)
