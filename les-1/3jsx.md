@@ -81,6 +81,23 @@ let h1Style = { color: "red", backgroundColor: "blue" };
 <h1 style={h1Style}>Hello World</h1>
 ```
 ---
+### Sluiten van tags
+In HTML hoef je tags niet te sluiten.
+```html
+<img class="aboutme__img" src="image.png" alt="picture of a dog">
+<br><br>
+```
+
+In JSX **moet** je tags sluiten, maar dat is gelukkig makkelijk gemaakt. 
+```html
+<img class="aboutme__img" src="image.png" alt="picture of a dog"></img>
+```
+Het bovenstaande is niet nodig (kan wel), maar met een trailing / kan je een tag gelijk afsluiten.
+```js
+<img class="aboutme__img" src="image.png" alt="picture of a dog"/>
+<br/>
+```
+---
 ---
 
 ## Opdracht:
