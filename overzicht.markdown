@@ -4,27 +4,34 @@ title: Overzicht
 permalink: /overzicht/
 ---
 
-#  Overzicht uit Educator
+#  Overzicht P4 2024-2025
 {: .text-green-200}
+* 5 mei: Bevrijdingsdag
+* 6 mei: Studiedag
+* 29 mei: Hemelvaart
+* 30 mei: Studiedag
+* 9 juni: Pinksteren
+* 30 juni: Laatste week
+* 7 juli: Lesvrij *(geen vakantie)*
 
-### Week 1
-
-
-### Week 2
-
-
-### Week 3
-
-
-### Week 4
+### Week 1 - 5 mei
 
 
-### Week 5
+### Week 2 - 12 mei
 
 
-### Week 6
+### Week 3 - 19 mei
 
 
-### Week 7
+### Week 4 - 26 mei
+
+
+### Week 5 - 2 juni
+
+
+### Week 6 - 9 juni
+
+
+### Week 7 - 16 juni
 
 

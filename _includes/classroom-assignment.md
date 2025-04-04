@@ -3,7 +3,7 @@
 {% assign lesson = site.data.lessons[lesson_index] %} 
 {% assign today = "now"|date:"%Y%m%d" %} 
 {% assign lesson_date = lesson.datum|date:"%Y%m%d" %}
-Les {{ lesson_number }} - {{ lesson.title }}
+# Les {{ lesson_number }} - {{ lesson.title }}
 
 {: .text-green-200 .fs-7 }
 

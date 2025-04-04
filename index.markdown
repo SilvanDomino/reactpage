@@ -7,9 +7,7 @@ has_toc: false
 
 # M8 React - {{ page.title }}
 
-Op deze website vind je links naar de opdrachten voor de unit Backend Programming van de module Duurzaam Huis (F2M3 Duurzaam Huis).
-
-Je gaat werken in een lege repository. 
+Op deze website vind je links naar de opdrachten voor het vak React in de module M8 Muse.
 
 ---
 

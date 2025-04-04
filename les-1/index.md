@@ -1,8 +1,6 @@
 ---
 title: Les 1 - React Project aanmaken
-layout: page
-nav_order: 3
-has_toc: false
+layout: default
 nav_exclude: false
 ---
 
