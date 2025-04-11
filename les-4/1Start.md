@@ -1,3 +1,6 @@
+---
+nav_exclude: true
+---
 # State en state machines
 
 We hebben nu een *AboutMe* component en een *Top10* component. Onze volgende component is een cookie clicker. Het is een bekend spel en prima te maken. De functies die ons cookie clicker spel krijgt zijn:

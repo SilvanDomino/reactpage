@@ -19,6 +19,15 @@ Met npm installeren we alle nodige node packages. Welke node packages dat zijn s
 3. npm run dev
 Met dit commando activeren we het `dev` script. Wat dat script doet staat ook beschreven in `package.json`. 
 
+## React project draaien
+Met het commando `npm run dev` gaan we het project uitvoeren. Vite gaat de develop tools opstarten en het project draaien. Onder developtools vallen:
+* Development server. HTML, css en javascript worden gedraaid.
+* Hot reloading. Elke keer er wijzigingen zijn wordt dit automatisch verwerkt in de website.
+* es-build. Dit compiled de meest nieuwe versie van Javascript/Typescript naar wat de browser kan gebruiken.
+
+Dit (en meer!) gebeurt allemaal met alleen de commando *'npm run dev'*.
+
+
 ## React project maken
 Maak de CSS bestanden leeg. We gaan onze eigen CSS schrijven.
 Open `App.jsx`, en haal het meeste weg. Alleen het volgende moet overblijven. 

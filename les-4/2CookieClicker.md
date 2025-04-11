@@ -1,3 +1,6 @@
+---
+nav_exclude: true
+---
 # Cookie Clicker en Cookie
 
 Maak het Cookie Clicker component. Vergeet hierbij niet de import voor de CSS.

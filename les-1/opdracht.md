@@ -1,3 +1,6 @@
+---
+nav_exclude: true
+---
 # Opdracht
 Vorig hoofdstuk heb je een artikel gemaakt. Ga dit artikel netjes stylen.
 * Alle elementen moeten onder elkaar
