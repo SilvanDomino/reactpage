@@ -15,5 +15,5 @@ De CSS bestanden die we nu hebben zijn:
 **Index.css** wordt gebruikt voor de stijl die van toepassing is voor de hele applicatie. 
 **App.css** wordt gebruikt voor de stijl die van toepassing is op alleen het *app* component. 
 
-## Opdracht
-Vorig hoofdstuk heb je een artikel gemaakt. Ga dit artikel netjes stylen.
+
+[Opdracht](Opdracht)
