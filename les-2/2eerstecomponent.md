@@ -60,4 +60,11 @@ Als het goed is, zie je nu het **AboutMe** component. Omdat er nog geen CSS of a
 Ga nu de rest van de HTML code schrijven om het volgende wireframe te maken.
 ![Wireframe](./images/Wireframe1.png)
 
+* Het root element is een article element, of een section element. Geef deze de className `AboutMe`.
+* De afbeelding is een img element.
+* De tekst komt naast de afbeelding, en de h2 boven de text. Dus een `div` element als container. In de div:
+  * `h2` voor de titel. Geef deze de className *aboutMe__title*.
+  * `p` voor de uitleg. Geef deze de className *aboutMe__paragraph*
+* Stylen doen we in het volgende hoofdstuk.
+
 [Volgende hoofdstuk: Component stylen](3componentstylen)
