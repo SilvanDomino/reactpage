@@ -3,3 +3,5 @@
 
 1. [Start](1onderwerp)
 2. [React project aanmaken](2component)
+3. [Props](3props)
+4. [Arrays en map](4arrays)

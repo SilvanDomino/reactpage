@@ -2,4 +2,5 @@
 {: .text-green-200 .fs-6 }
 
 1. [Start](1onderwerp)
-<!-- 4. [Testen](4testen) -->
+2. [Fetch](2fetch)
+3. 

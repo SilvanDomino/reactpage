@@ -58,4 +58,5 @@ Als we de list items willen gaan stylen, dan wordt de code groot en complex. Dan
     </div>
 </li>
 ```
-[Volgende stap: List Items stylen]
+
+[Volgende stap: Props]
