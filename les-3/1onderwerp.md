@@ -5,7 +5,6 @@ layout: default
 ---
 
 # Componenten en props
-
 In de vorige les hebben we een eerste component aangemaakt en deze (door middel van css module) gestyled. In deze les gaan we een tweede component maken, namelijk een top 10 component. In dit component gaat jouw top 10 staan. Dit kan een top 10 van alles zijn. 
 
 * Top 10 albums
@@ -24,11 +23,11 @@ Hieronder hebben we een voorbeeld van de Top 40.
 Iedere single heeft een artiest (en eventueel nog extra informatie zoals hoe veel weken ze in de lijst staan)
 
 ## Stappen
-
 1. Maken van een (Top10) component.
 2. Invullen van de top 10.
 3. Styling
 4. Data verplaatsen naar props.
 5. Data verplaatsen naar array.
+
 
 [Volgende hoofdstuk: Maken van component](2component)

@@ -36,3 +36,5 @@ Maak een button aan en geef deze een classname, voeg deze toe aan het CookieClic
 }
 ```
 Als het goed is heeft jouw component nu een cookie om op te klikken!
+
+[Volgend hoofdstuk: Score](3Score)

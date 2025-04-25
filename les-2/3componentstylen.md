@@ -53,3 +53,6 @@ Maak een nieuw bestand aan genaamd `AboutMe.css`.
 Style jouw AboutMe component. Kies zelf of je een grid of flexbox gebruikt om de elementen naast elkaar te krijgen.
 Kleur en margins mag je ook zelf bedenken.
 
+---
+# Einde les
+Dit is het einde van deze les. Volgende les ga je een top 10 maken en werken met *props*.

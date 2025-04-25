@@ -24,7 +24,26 @@ Vervang `let score = 0` met de voglende regel code:
 ```js
 const [score, setScore] = useState(0);
 ```
+---
+Het eindresultaat ziet er ongeveer zo uit:
 
+
+CookieClicker.js
+{: .code-label }
+```js
+export function CookieClicker(){
+    const [score,  setScore] = useState(0);
+
+    return (
+        <section className={styles.cookieClicker}>
+            <button className={styles.cookie} onClick={onClick}></button>
+            <div className={styles.container}>
+                <div className={styles.score}>{score} Cookies</div>
+            </div>
+        </section>
+    )
+}
+```
 ### Uitleg
 
 * `useState(0)` - We maken gebruik van de useState hook, die maakt een nieuwe **state** aan. Ook wordt een initiele waarde meegegeven, *0*. Je kan hier alles in meegeven, niet alleen een getal. Je kan een *string* meegeven, een *boolean*, een **object of zelfs een array**.
@@ -50,4 +69,4 @@ We passen de state aan. De huidige state is de score+1.
 ## Cookie Clicker
 Als het goed is werkt de cookie clicker nu! We kunnen op de cookie clicker klikken en de score gaat omhoog.
 
-(Upgrades)[5upgrades]
+[Upgrades](5upgrades)
