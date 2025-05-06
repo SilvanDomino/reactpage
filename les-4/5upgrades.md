@@ -33,4 +33,3 @@ function buyGrandma(){
 Hoera! We kunnen grandma's kopen! De oma's hebben alleen nog geen effect. Verander de regel `setScore(score+1);` naar `setScore(score+1+grandmas);`. En nu hebben we een werkende cookie clicker met upgrades.
 De prijs van onze oma's is nu standaard 20 cookies, alleen bij een echte cookie clicker worden grandmas steeds **duurder**. 
 
-{% include test.md%}
