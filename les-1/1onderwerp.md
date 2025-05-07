@@ -7,6 +7,18 @@ layout: default
 ## Wat is React
 React is een populaire JavaScript-bibliotheek voor het bouwen van gebruikersinterfaces, ontwikkeld door Facebook. Het wordt vooral gebruikt voor het maken van dynamische en interactieve webapplicaties. React werkt met componenten, herbruikbare onderdelen die de website opdelen in beheersbare delen.
 
+## Leerdoelen deze periode
+* React project aanmaken
+* Componenten maken
+* Props
+* State
+* Fetch
+* Build en deploy
+
+## Leerdoelen leze les
+* React project aanmaken
+* JSX
+
 ## Waarom React?
 
 * Snelle UI-updates – Dankzij de Virtual DOM worden alleen de noodzakelijke delen van de pagina geüpdatet, wat zorgt voor betere prestaties.

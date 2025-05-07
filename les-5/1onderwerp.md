@@ -4,3 +4,6 @@ nav_exclude: true
 layout: default
 ---
 
+# Fetch en State
+
+## Maken van component

@@ -3,4 +3,5 @@
 
 1. [Start](1onderwerp)
 2. [Fetch](2fetch)
-3. 
+3. [Rerender](3rerender)
+4. [Types](4types)
