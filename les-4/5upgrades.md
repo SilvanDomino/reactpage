@@ -24,12 +24,36 @@ En net als voor de cookie moet er een functie gemaakt worden, voor wanneer de sp
 Maar je kan alleen een grandma kopen als je 20 cookies kan betalen.
 ```js
 function buyGrandma(){
-    if(cookies > 20){
+    if(score > 20){
         setGrandmas(grandmas+1);
-        setCookies(cookies-20);
+        setScore(score-20);
     }
 }
 ```
 Hoera! We kunnen grandma's kopen! De oma's hebben alleen nog geen effect. Verander de regel `setScore(score+1);` naar `setScore(score+1+grandmas);`. En nu hebben we een werkende cookie clicker met upgrades.
 De prijs van onze oma's is nu standaard 20 cookies, alleen bij een echte cookie clicker worden grandmas steeds **duurder**. 
 
+De exacte toename van grandma cost is 15%. Dus iedere keer wordt de huidige prijs van de oma's met 15% verhoogt.
+
+|Grandma # | Berekening | Totaal|
+|----------|------------| ------|
+|1 | 20 | 20|
+|2 | 20*1.15| 23 |
+|3 | 20*1.15*1.15 | 26.45|
+|4 | 20*1.15*1.15*1.15| 30.41|
+
+Al deze vermenigvuldigingen kunnen we netter en makkelijker doen door gebruik te maken van machten.
+
+|Grandma # | Berekening | Totaal|
+|----------|------------| ------|
+|1 | 20 | 20|
+|2 | 20*1.15^1| 23 |
+|3 | 20*1.15^2 | 26.45|
+|4 | 20*1.15^3| 30.41|
+
+Dus een oma kost niet 20 cookies, maar `20*1.15**(grandmas-1)`.
+Vervang de plekken waar je nu 20 hebt staan met deze rekensom.
+
+---
+## Einde les State
+Dit is het einde van de les over States. Volgende les gaan we states combineren met Fetch.
