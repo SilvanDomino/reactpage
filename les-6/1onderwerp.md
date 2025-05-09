@@ -11,4 +11,4 @@ Single Page Application zijn websites die voornamelijk bestaan uit een enkele pa
 * Gebruik maken van Routing voor meer pagina's.
 * Een navigatiebar gebruiken.
 
-[Volgend hoofdstuk: Navigatie bar maken](2navbar)
+[Volgend hoofdstuk: Navigatie bar maken](../2navbar)

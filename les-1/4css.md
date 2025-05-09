@@ -15,5 +15,6 @@ De CSS bestanden die we nu hebben zijn:
 **Index.css** wordt gebruikt voor de stijl die van toepassing is voor de hele applicatie. 
 **App.css** wordt gebruikt voor de stijl die van toepassing is op alleen het *app* component. 
 
+---
 
-[Opdracht](Opdracht)
+Dit is het einde van de eerste les. Voglende les gaan we componenten maken en werken met modulaire css.

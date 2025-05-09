@@ -10,6 +10,8 @@ Voor de navigatie bar willen we verschillende pagina's hebben. Ik heb bedacht:
 
 Dat betekent dat bijna alle componenten die we de vorige lessen hebben gemaakt verdeeld worden over verschillende componenten.
 
+## Structuur 
+Er komen componenten in componenten, daarom is het handig om dit visueel te maken.
 De structuur die we dan hanteren is
 * About
 	* About Me *(les 2)*
@@ -19,9 +21,23 @@ De structuur die we dan hanteren is
 	* Pokemon *(Les 5)*
 * Contact
 
-## Home component
-Alle componenten die we de vorige lessen hebben gemaakt
+Dat betekent dat je 3 componenten moet maken. **About**, **Games** en **Contact**. Ieder van deze component wordt straks een pagina waar je naar toe kan *browsen*. Met de juiste URL kan je naar die pagina gaan, en mensen kunnen dan die pagina ook bookmarken. 
 
+
+```js
+export function About(){
+	return(
+		<main>
+			<h1>About</h1>
+			<AboutMe/>
+			<Top10/>
+		<main>
+	)
+}
+```
+Hierboven hebben we een voorbeeld van de *About* pagina. 
+
+## Navbar component
 Maak een navbar component en css module.
 
 ```js
@@ -41,5 +57,6 @@ Maak een navbar component en css module.
 ```
 Dit is een eenvoudig voorbeeld van een navbar. De styling kan je zelf doen.
 
-## Structuur 
-Er komen componenten in componenten, daarom is het 
+We hebben nu onze losse, maar functionele componenten. Nu moeten we alleen nog zorgen dat we kunnen browsen. Dat wanneer we op de navbar op een link klikken, dat we naar de juiste pagina/component gaan.
+
+[Volgende hoofdstuk: React Router](3router)

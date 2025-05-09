@@ -21,8 +21,12 @@
 title: M8 React classes
 description: >- # this means to ignore newlines until "baseurl:"
   Welkom bij de lessenreeks voor de M8 React lessen.
-baseurl: "/reactpage" # the subpath of your site, e.g. /blog
-url: "https://silvandomino.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+
+# baseurl: "/M8-PROG-React" 
+# url: "https://mediacollege.dev"
+
+baseurl: "/_site" 
+url: "http://127.0.0.1:5500"
 
 github_username:  SilvanDomino
 email: s.herrema@ma-web.nl
@@ -30,15 +34,16 @@ email: s.herrema@ma-web.nl
 # Build settings
 theme: just-the-docs
 color_scheme: m9react
-#plugins:
-#  - jekyll-feed
+
+plugins:
+  - jekyll-feed
 
 search_enabled: false
 heading_anchors: false
 
 settings:
 #  assignment_url: https://classroom.github.com/a/a3oV1MzV
-  skip_date_check: true
+  skip_date_check: false
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -59,3 +64,5 @@ settings:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+include:
+  - Gemfile
