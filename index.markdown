@@ -11,7 +11,7 @@ Op deze website vind je links naar de opdrachten voor het vak React in de module
 
 ---
 
-[Lees hier hoe je vervolgens de opdrachten maakt en inlevert](instructie){: .btn .btn-green }
+[Lees hier hoe je vervolgens de opdrachten maakt en inlevert](opdracht){: .btn .btn-green }
 
 ---
 

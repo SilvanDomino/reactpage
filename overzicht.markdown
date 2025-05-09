@@ -14,24 +14,9 @@ permalink: /overzicht/
 * 30 juni: Laatste week
 * 7 juli: Lesvrij *(geen vakantie)*
 
-### Week 1 - 5 mei
-
-
-### Week 2 - 12 mei
-
-
-### Week 3 - 19 mei
-
-
-### Week 4 - 26 mei
-
-
-### Week 5 - 2 juni
-
-
-### Week 6 - 9 juni
-
-
-### Week 7 - 16 juni
+{% for lesson in site.data.lessons %}
+## Les {{ lesson.number }}:  {{ lesson.title }}
+{{ lesson.description }}
+{% endfor %}
 
 
