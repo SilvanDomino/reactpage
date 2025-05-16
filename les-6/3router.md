@@ -27,5 +27,7 @@ Je kan ook een fullstack framework gebruiken zoals Next.js.
 ## Installeren
 Maak gebruik van de officiele documentatie om de router werkend te krijgen.
 [https://reactrouter.com/start/declarative/installation](Zie hier)
+Maar omdat wij geen complete toegang hebben tot onze host, maken we gebruik van de **HashRouter**.
+
 
 Onze routes zijn nog erg simpel met maar 3 routes.
