@@ -2,5 +2,5 @@
 {: .text-green-200 .fs-6 }
 
 1. [Deployen van website](1deploy)
-1. [Gallery](2gallery)
-1. [FAQ](3faq)
+2. [Gallery](2gallery)
+3. [FAQ](3faq)
