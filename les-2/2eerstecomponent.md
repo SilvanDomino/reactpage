@@ -19,7 +19,7 @@ class Car extends React.Component {
 
 Sinds 2021, in modern React wordt gebruik gemaakt van *'functional components'*, wat betekent dat een component bestaat uit een functie. Dit gaan wij ook gebruiken. 
 
-AboutMe.js  
+AboutMe.jsx  
 {: .code-label }
 ```js
 function AboutMe(){
