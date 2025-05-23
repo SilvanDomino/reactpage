@@ -9,4 +9,4 @@ Om dit te maken moeten jullie gebruik maken van states.
 2. [Cookie Clicker](2CookieClicker)
 3. [Score](3Score)
 4. [State](4State)
-
+4. [Upgrades](5upgrades)
