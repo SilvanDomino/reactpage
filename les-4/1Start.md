@@ -19,4 +19,4 @@ Om dit component te maken moeten we een aantal stappen doorlopen.
 4. Score weergeven
 5. Upgrades implementeren.
 
-[Aanmaken van CookieClicker component en Cookie](1CookieClicker)
+[Aanmaken van CookieClicker component en Cookie](2CookieClicker)
