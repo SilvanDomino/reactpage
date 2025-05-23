@@ -9,7 +9,7 @@ title: Top 10
 
 Als het goed is ziet jouw `top10.js` er ongeveer als volgt uit:
 
-```js
+```jsx
 return (
     <section className={styles.top10}>
         <h1>Top 10 Favorite Books</h1>
@@ -26,7 +26,7 @@ return (
 Ik ga er wel vanuit dat je een andere Top 10 hebt dan ik. Jullie zullen wel andere hobbies of interesses hebben dan het lezen van boeken. 
 
 Maar dit soort informatie, zoals een top 10, wil je eigenlijk niet in de JSX opslaan, dit wil je eigenlijk in een *array* hebben. Maak een **array** aan met alle items aan van jouw Top 10.
-```js
+```jsx
 let top10 = [
     {title: "The Final Empire", author: "Brandon Sanderson"},
     {title: "The Way of Kings", author: "Brandon Sanderson"},
@@ -42,11 +42,13 @@ let top10 = [
 ```
 En zo zijn alle elementen in de top 10 in een array en dit kunnen we makkelijk in de JSX stoppen. 
 
-```html
+```jsx
 <Top10Item title={top10[0].title} author={top10[0].author} number="1"/>
+<Top10Item title={top10[1].title} author={top10[1].author} number="2"/>
+<Top10Item title={top10[1].title} author={top10[2].author} number="3"/>
 ```
 Maar als developer wil je hier natuurlijk een loop voor gebruiken. Echter, je kan geen loop in de JSX stoppen, wel buiten de array en de array in de JSX knallen.
-```js
+```jsx
 let list = [];
 for(let i = 0; i < top10.length; i++){
     list.push(
@@ -72,7 +74,7 @@ Map is een functie van een array. We kunnen deze gebruiken met `top10.map()`. Ma
 
 De map functie doet hetzelfde wat wij de vorige hoofdstuk hebben gedaan met een for-loop.
 
-```js
+```jsx
 let list = [];
 for(let i = 0; i < top10.length; i++){
     list.push(
@@ -82,7 +84,7 @@ for(let i = 0; i < top10.length; i++){
 ```
 
 Map maakt van een array een nieuwe array op basis van de gebruikte array. In de map functie geven we een functie mee die uitgevoerd wordt voor elk element in de array.
-```js
+```jsx
 let list = top10.map((item, index) =>{
     return <Top10Item title={top10[i].title} author={top10[i].author} number={index+1}/>
 })
@@ -90,7 +92,7 @@ let list = top10.map((item, index) =>{
 
 Omdat dit *technisch* gezien een enkele statement is, kunnen we dit wel in de JSX doen. Het is redelijk standaard om elementen van arrays op de onderstaande manier te renderen.
 
-```js
+```jsx
 return (
     <section className={styles.top10}>
         <h1>Top 10 Favorite Books</h1>

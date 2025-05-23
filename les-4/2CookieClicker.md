@@ -5,7 +5,7 @@ nav_exclude: true
 
 Maak het Cookie Clicker component. Vergeet hierbij niet de import voor de CSS.
 
-```js
+```jsx
 export function CookieClicker(){
     return(
         <section>
@@ -22,7 +22,7 @@ Geef de `CookieClicker` een class en style deze. Dit kan je het beste met een CS
 De volgende stap is de cookie. De Cookie is redelijk simpel. Het is iets waar we op kunnen klikken, het is een koekje en dus rond.
 Maak een button aan en geef deze een classname, voeg deze toe aan het CookieClicker component.
 
-```js
+```jsx
     <button className={styles.cookie}></button>
 ```
 

@@ -9,7 +9,7 @@ layout: default
 Om een component te maken, maak een nieuw bestand aan met de naam van jouw component. Denk hier bij goed aan de hoofdletters. Ons component gaat heten *AboutMe*. Dus maak een bestand aan genaamd `AboutMe.jsx`. 
 
 Van origine werd er bij React gebruik gemaakt van *'class components'*, waarbij ieder component een eigen class was. 
-```js
+```jsx
 class Car extends React.Component {
   render() {
     return <h2>Hi, I am a Car!</h2>;
@@ -31,7 +31,7 @@ function AboutMe(){
 
 ## Component Exporteren
 Als we dit component in een ander bestand willen gebruiken, moeten we het component exporteren. Dat doen we met *export*. Zet voor `AboutMe` component het keyword `export`.
-```js
+```jsx
 export function AboutMe(){
 ...
 ```
@@ -42,9 +42,9 @@ Het component wordt nu ge-exporteert. Dan kunnen we deze importeren. We willen o
 ## Component Toevoegen
 Een react component, de JSX daarvan, heeft een root component nodig. Je kan niet meerdere losse components er in zetten, dat geeft een error. Omdat ons project straks gaat bestaan uit meerdere componenten, niet alleen *AboutMe*, moet de App component ook een **root** element hebben. Het root element kan bijvoorbeeld een `main` element zijn.
 
-App.js  
+App.jsx
 {: .code-label }
-```js
+```jsx
 function App() {
   return (
     <main>

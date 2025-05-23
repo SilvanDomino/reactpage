@@ -7,7 +7,7 @@ title: Top 10
 
 ## Props
 Door middel van props gebruiken kunnen we veel van onze code herbruikbaar maken. Ons top 10 component, als we deze willen stylen door middel van oa de layout aan te passen, zou dat er uit kunnen komen te zien zoals hieronder.
-```js
+```jsx
 <li>
     <div>1</div>
     <div className="container">
@@ -21,9 +21,9 @@ Deze code willen we niet **10 keer** herhalen, want dan hebben we 70 regels code
 ### Maken van een Component
 Maak een nieuw component aan. Dit component is een enkel item uit de top 10, en dit component gaan we meerdere keren herhalen.
 
-Top10Item.js  
+Top10Item.jsx 
 {: .code-label }
-```js
+```jsx
 import styles from './Top10Item.module.css'
 export function Top10Item(){
     return(
@@ -71,14 +71,14 @@ Voor ons `Top10Item` component kunnen we op dezelfde manier props meegeven.
 ### Props gebruiken
 We hebben nu props meegegeven, deze moeten alleen nog opgevangen worden en gebruikt worden.
 
-```js
+```jsx
 export function Top10Item(props){
 //...
 //...
 }
 ```
 In de functie worden de props meegegeven als argument. Dit props object bevat alle attributen en de waardes die daar bij horen. Dit props object kunnen we gebruiken in onze JSX.
-```js
+```jsx
 return (
     <li className={styles.book}>
         <div className={styles.bookNumber}>

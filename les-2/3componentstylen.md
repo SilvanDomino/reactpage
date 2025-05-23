@@ -18,7 +18,7 @@ De CSS regels zijn globaal en beinvloeden alle componenten die dezelfde class of
 
 ## CSS Modules
 Deze manier van CSS werkt anders dan de globale CSS, en dus anders dan gewoon HTML en CSS. Op deze manier heeft alleen de componenten in het bestand dat de module importeert deze stijl. 
-```js
+```jsx
 import styles from "./MyComponent.module.css";
 
 function MyComponent() {
@@ -30,7 +30,7 @@ De class namen worden automatisch uniek gemaakt, zodat je verschillende *card* c
 
 ## Javascript Style-Objecten
 Dit is eigenlijk *inline* style, zoals ook in HTML gebruikt wordt, alleen worden er Javascript objecten gebruikt.
-```js
+```jsx
 function MyComponent() {
   return <h1 style={{ color: "red", fontSize: "24px" }}>Hello, Inline!</h1>;
 }
@@ -38,7 +38,7 @@ function MyComponent() {
 
 ## CSS Library 
 Net als in Laravel of HTML kan je CSS libraries gebruiken.
-```js
+```jsx
 function App() {
   return (
     <div className="min-h-screen bg-gray-100 flex flex-col items-center justify-center">

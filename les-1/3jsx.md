@@ -8,7 +8,7 @@ layout: default
 Dit hoofdstuk gaan we heel kort JSX behandelen. 
 JSX staat voor JavaScript XML. Het laat ons HTML code schrijven *in* javascript. 
 Vorig hoofdstuk hebben wij deze code geschreven, en dit is voornamelijk javascript, alleen het stukje `<h1>Hello World</h1>` is JSX. Het is geen echte HTML, maar ook geen JavaScript. Maar het lijkt toch 100% op HTML zou je denken, toch zijn er een paar hele kleine verschillen.
-```js 
+```jsx
   return (
     <h1>Hello world</h1>
   )
@@ -23,7 +23,7 @@ In JavaScript is `class` een beschermde keyword. Dit woord mag je niet gebruiken
 ```
 
 In JSX wordt daarom `className` gebruikt, inplaats van `class`.
-```js
+```jsx
     return(
         <img className="aboutme__img" src="image.png" alt="picture of a dog"/>
     )
@@ -38,7 +38,7 @@ In gewoon HTML kan je alles in de body gooien wat je wilt.
 </body>
 ```
 In JSX, moet jouw component een root element hebben om te returnen. **Onderstaande gaat niet**. Krijg je een error.
-```js
+```jsx
 function App() {
     return (
         <img className="aboutme__img" src="image.png" alt="picture of a dog"/>
@@ -47,7 +47,7 @@ function App() {
 }
 ```
 Onderstaande gaat wel, we hebben een div als root element van ons component.
-```js
+```jsx
 function App() {
     return (
         <div>
@@ -61,7 +61,7 @@ function App() {
 ---
 ### Gebruik van variabelen
 In HTML kan je geen variabelen gebruiken. In JSX wel.
-```js
+```jsx
 function App() {
     const name = "Silvan";
     return (
@@ -76,7 +76,7 @@ In HTML is style een string.
 <h1 style="background: pink">Hello world</h1>
 ```
 In JSX is de style een object.
-```js
+```jsx
 let h1Style = { color: "red", backgroundColor: "blue" };
 <h1 style={h1Style}>Hello World</h1>
 ```
@@ -89,11 +89,11 @@ In HTML hoef je tags niet te sluiten.
 ```
 
 In JSX **moet** je tags sluiten, maar dat is gelukkig makkelijk gemaakt. 
-```html
+```jsx
 <img class="aboutme__img" src="image.png" alt="picture of a dog"></img>
 ```
 Het bovenstaande is niet nodig (kan wel), maar met een trailing / kan je een tag gelijk afsluiten.
-```js
+```jsx
 <img class="aboutme__img" src="image.png" alt="picture of a dog"/>
 <br/>
 ```
@@ -102,7 +102,7 @@ Het bovenstaande is niet nodig (kan wel), maar met een trailing / kan je een tag
 
 ## Opdracht:
 Nu we alle regels kennen van JSX kan je beginnen met het bouwen van jouw eerste site.
-```js
+```jsx
 function App() {
     return (
         <h1>Hello world</h1>

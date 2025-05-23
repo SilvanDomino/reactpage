@@ -35,7 +35,7 @@ Open `App.jsx`, en haal het meeste weg. Alleen het volgende moet overblijven.
 app.js  
 {: .code-label }
 
-```js 
+```jsx
 import './App.css'
 
 function App() {

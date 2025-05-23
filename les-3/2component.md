@@ -14,9 +14,9 @@ We gaan een Top 10 component maken.
     * Daaronder is de lijst. De lijst heeft een volgorde, dus het is een ordered list. 
 * Voeg het `Top10` component toe aan `App.js`, onder **AboutMe**.
 
-Top10.js  
+Top10.jsx  
 {: .code-label }
-```js
+```jsx
 import styles from './Top10.module.css'
 export function Top10(){
     return(

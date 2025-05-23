@@ -15,22 +15,22 @@ Volgende les gaat dit voor leuke problemen zorgen.
 ## State
 Een state is een manier om gegevens op te op slaan ook wanneer een component wordt re-rerendert. 
 We beginnen met de import.
-```js
+```jsx
 import {useState} from 'react';
 ```
 Nu kunnen we *useState* gebruiken in onze code.
 
 Vervang `let score = 0` met de voglende regel code:
-```js
+```jsx
 const [score, setScore] = useState(0);
 ```
 ---
 Het eindresultaat ziet er ongeveer zo uit:
 
 
-CookieClicker.js
+CookieClicker.jsx
 {: .code-label }
-```js
+```jsx
 export function CookieClicker(){
     const [score,  setScore] = useState(0);
 

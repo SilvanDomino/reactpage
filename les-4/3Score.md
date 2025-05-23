@@ -10,7 +10,7 @@ We hebben een eenvoudig cookie clicker component gemaakt, alleen de logica ontbr
 
 ## Score
 Maak in de javascript een variabele aan voor de score.
-```js
+```jsx
 export function CookieClicker(){
     let score = 0;
     return(
@@ -24,14 +24,14 @@ We gebruiken *div* html tags. Omdat we *curly brackets* gebruiken, wordt de inho
 
 ## OnClick event
 Maak een onClick functie aan. Deze functie wordt aangeroepen wanneer op de cookie geklikt wordt. 
-```js
+```jsx
 function cookieClick(){
     score+=1;
     console.log(score);
 }
 ```
 Voeg de onClick event toe aan de cookie.
-```js
+```jsx
 <button className={styles.cookie} onClick={cookieClick}></button>
 ```
 

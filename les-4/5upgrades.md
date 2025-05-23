@@ -9,20 +9,20 @@ Deze *grandma* upgrade zorg er voor dat elke klik telt voor meer. Dus als je 2 o
 
 De eerste stap is de UI.
 
-```js
+```jsx
 <label htmlFor="button">Grandmas: 0 </label>
 <button className={styles.upgrade}>Buy grandma</button>
 ```
 
 ## Logica van Grandma
 Voor de **grandmas** moet ook een state gemaakt worden. 
-```js 
+```jsx
 const [grandmas, setGrandmas] = useState(0);
 ```
 
 En net als voor de cookie moet er een functie gemaakt worden, voor wanneer de speler klikt op de cookie.
 Maar je kan alleen een grandma kopen als je 20 cookies kan betalen.
-```js
+```jsx
 function buyGrandma(){
     if(score > 20){
         setGrandmas(grandmas+1);
@@ -51,7 +51,7 @@ Al deze vermenigvuldigingen kunnen we netter en makkelijker doen door gebruik te
 |3 | 20*1.15^2 | 26.45|
 |4 | 20*1.15^3| 30.41|
 
-Dus een oma kost niet 20 cookies, maar `20*1.15**(grandmas-1)`.
+Dus een oma kost niet 20 cookies, maar `20*1.15**grandmas`.
 Vervang de plekken waar je nu 20 hebt staan met deze rekensom.
 
 ---
