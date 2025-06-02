@@ -55,7 +55,7 @@ if(pokemon === null){
 Het probleem hier is dat de informatie van onze pokemon nog niet gebruikt wordt/kan worden omdat we het component opnieuw moeten renderen. Daar moeten we een state voor gebruiken.
 
 ```js
-    const [pokemon, setPokemon] = useState(0);
+    const [pokemon, setPokemon] = useState(null);
     fetch("https://pokeapi.co/api/v2/pokemon/254")
     .then(response => response.json())
     .then(data =>{
@@ -75,6 +75,6 @@ We hebben nu een component dat:
 4. Gegevens van een pokemon fetcht.
 5. Het component opnieuw rendert, maar deze keer met gegevens van de pokemon
 
-Dat laatste is niet helemaal de bedoeling.
+Dat laatste is niet helemaal de bedoeling. Het is niet de bedoeling dat de pokemon oneindig vaak gefetched wordt en opnieuw gerendert. 
 
 [Volgend hoofdstuk: Probleem 3: Rerenderen van een component](3rerender)
