@@ -38,7 +38,7 @@ export function Top10Item(){
 }
 ```
 
-Importeer dit component in `Top10.js`. Vervang alle *li* elementen met dit component. Pas zelf de styling aan.
+Importeer dit component in `Top10.jsx`. Vervang alle *li* elementen met dit component. Pas zelf de styling aan.
 
 ### Props meegeven
 De Top10 ziet er nu als volgt uit:

@@ -38,7 +38,10 @@ export function About(){
 Hierboven hebben we een voorbeeld van de *About* pagina. 
 
 ## Navbar component
-Maak een navbar component en css module.
+Maak een navbar component en css module. 
+
+App.jsx  
+{: .code-label }
 
 ```js
 <navbar className={styles.navbar}>

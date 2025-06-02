@@ -12,7 +12,7 @@ We gaan een Top 10 component maken.
 * De Top 10 component bestaat uit een root *article* of *section*. 
     * Boven de Top 10 lijst is de `h2` met de titel van het component.
     * Daaronder is de lijst. De lijst heeft een volgorde, dus het is een ordered list. 
-* Voeg het `Top10` component toe aan `App.js`, onder **AboutMe**.
+* Voeg het `Top10` component toe aan `App.jsx`, onder **AboutMe**.
 
 Top10.jsx  
 {: .code-label }

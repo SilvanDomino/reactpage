@@ -17,7 +17,7 @@ if(window.location.href.includes("About")){
         <p>Ik ben silvan</p>`
 }
 ```
-Dit is ongeveer wat de React router straks gaat doen wanneer we frontend routing gaan doen. 
+Dit is *ongeveer* wat de React router straks gaat doen wanneer we frontend routing gaan doen. 
 
 ### Frontend en backend routing
 Je kan dus aan de frontend en aan de backend aan routing gaan doen. Je kan het ook allebei gebruiken.
@@ -27,7 +27,39 @@ Je kan ook een fullstack framework gebruiken zoals Next.js.
 ## Installeren
 Maak gebruik van de officiele documentatie om de router werkend te krijgen.
 [https://reactrouter.com/start/declarative/installation](Zie hier)
-Maar omdat wij geen complete toegang hebben tot onze host, maken we gebruik van de **HashRouter**.
+Maar omdat wij geen complete toegang hebben tot onze host, maken we gebruik van de **HashRouter** in plaats van *BrowserRouter*.
 
+Onze routes zijn nog erg simpel met maar 3 routes en geen nested routes. 
 
-Onze routes zijn nog erg simpel met maar 3 routes.
+## En nu
+In het vorige hoofdstuk heb je een navigatie-bar gemaakt, en de componenten verdeeld over de 3 verschillende routes. Nu moeten we de routes implementeren.
+
+```jsx
+function App() {
+  return (
+    <main>
+      <nav>
+        <ul className='navlist'>
+          <li className='navlist__item'>
+            <Link className='nav__link' to="/">Home</Link>
+          </li>
+          <li className='navlist__item'>
+            <Link className='nav__link' to="/games">Games</Link>
+          </li>
+        </ul>
+      </nav>
+      <Routes>
+        <Route index element={<Home />} />
+        <Route path="/games" element={<Games/>} />
+      </Routes>
+    </main>
+  )
+}
+```
+
+Ik heb hier de **Home** en de **Games** route geimplementeerd, implementeer nu zelf ook de **Contact** route.
+Ga nu ook kijken of je een *'page not found'* pagina kan implementeren. 
+
+---
+
+Dit is het einde van deze les. Volgende les gaan we aan de slag met het online zetten van onze applicatie en de gallerij.

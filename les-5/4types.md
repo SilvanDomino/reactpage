@@ -9,7 +9,7 @@ Pokemon hebben ook allemaal types. Sommige zijn <span style='background:red'>fir
 Ga de pokemon types weergeven, en maak ook gebruik van de kleur.
 ![Venusaur](images/venusaur.png)
 
-Deze opdracht mag je zelfstandig uitwerken. Zonder chat GPT. 
+Deze opdracht ga je zelfstandig uitwerken. Zonder chat GPT of een andere LLM.
 ---
 
 # Extra opdrachten

@@ -32,7 +32,7 @@ Dit (en meer!) gebeurt allemaal met alleen de commando *'npm run dev'*.
 Maak de CSS bestanden leeg. We gaan onze eigen CSS schrijven.
 Open `App.jsx`, en haal het meeste weg. Alleen het volgende moet overblijven. 
 
-app.js  
+app.jsx
 {: .code-label }
 
 ```jsx

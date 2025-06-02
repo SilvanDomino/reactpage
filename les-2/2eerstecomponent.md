@@ -21,7 +21,7 @@ Sinds 2021, in modern React wordt gebruik gemaakt van *'functional components'*,
 
 AboutMe.jsx  
 {: .code-label }
-```js
+```jsx
 function AboutMe(){
     return (
         <h1>About Me</h1>
