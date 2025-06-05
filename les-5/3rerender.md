@@ -8,7 +8,7 @@ Wanneer je de state aanpast van een component, dan wordt ook alle code die voor 
 ## Manier 1: De simpele manier.
 Alleen fetchen als de data leeg is. 
 
-```js
+```jsx
     if(pokemon === null){
         fetch("https://pokeapi.co/api/v2/pokemon/254")
         .then(response => response.json())
@@ -26,7 +26,7 @@ Alleen fetchen als de data leeg is.
 
 ## Manier 2: De juiste manier
 Fetch alleen bij het mounten/opstarten van het component door middel van een effect.
-```js
+```jsx
 useEffect(()=>{
     fetch("https://pokeapi.co/api/v2/pokemon/254")
     .then(response => response.json())

@@ -6,7 +6,7 @@ nav_exclude: true
 
 We gaan de gegevens van een pokemon fetchen, en we weten ondertussen wel hoe een fetch werkt.
 Zet boven de return de volgende statement, en dan fetchen we de pokemon zodra het component wordt gebruikt.
-```js
+```jsx
     let pokemon = null;
     fetch("https://pokeapi.co/api/v2/pokemon/254")
     .then(response => response.json())
@@ -17,7 +17,7 @@ Zet boven de return de volgende statement, en dan fetchen we de pokemon zodra he
 
 Laten we gelijk ook maar de pokemon renderen.
 
-```js
+```jsx
 return (
     <section className={styles.pokemon}>
         <h2 className={styles.name}>{pokemon.name}</h2>
@@ -34,7 +34,7 @@ Als we deze code uitproberen dan hebben we 2 problemen.
 ## Probleem 1: Twee return statements.
 Een component moet altijd *iets* returnen. Omdat componenten synchroon zijn kunnen ze niet op iets wachten. Wat je wel kan doen is een component iets anders laten renderen, zolang er nog niks gefetched is.
 
-```js
+```jsx
 if(pokemon === null){
     return (
         <section className={styles.pokemon}>
@@ -54,7 +54,7 @@ if(pokemon === null){
 ## Probleem 2: State
 Het probleem hier is dat de informatie van onze pokemon nog niet gebruikt wordt/kan worden omdat we het component opnieuw moeten renderen. Daar moeten we een state voor gebruiken.
 
-```js
+```jsx
     const [pokemon, setPokemon] = useState(null);
     fetch("https://pokeapi.co/api/v2/pokemon/254")
     .then(response => response.json())

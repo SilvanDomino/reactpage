@@ -69,4 +69,4 @@ We passen de state aan. De huidige state is de score+1.
 ## Cookie Clicker
 Als het goed is werkt de cookie clicker nu! We kunnen op de cookie clicker klikken en de score gaat omhoog.
 
-[Upgrades](5upgrades)
+[Volgend hoofdstuk: Omatjes en Upgrades](5upgrades)

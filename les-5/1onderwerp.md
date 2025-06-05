@@ -9,3 +9,5 @@ We hebben nu gekeken hoe een state werkt. Deze les gaan we een fetchen naar een 
 
 ## Maken van component
 Maak twee bestanden aan, `Pokemon.jsx` en `Pokemon.module.css`. Begin met het maken van een component genaamd Pokemon. 
+
+[Volgend hoofdstuk: Fetchen van een databasen](2fetch)

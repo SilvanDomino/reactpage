@@ -20,11 +20,11 @@ De structuur die we dan hanteren is
 	* Cookie Clicker *(Les 4)*
 	* Pokemon *(Les 5)*
 * Contact
-
+	* FAQ *(Volgende les)*
 Dat betekent dat je 3 componenten moet maken. **About**, **Games** en **Contact**. Ieder van deze component wordt straks een pagina waar je naar toe kan *browsen*. Met de juiste URL kan je naar die pagina gaan, en mensen kunnen dan die pagina ook bookmarken. 
 
 
-```js
+```jsx
 export function About(){
 	return(
 		<main>
@@ -43,7 +43,7 @@ Maak een navbar component en css module.
 App.jsx  
 {: .code-label }
 
-```js
+```jsx
 <navbar className={styles.navbar}>
 	<ul className={styles.list}>
 	<li className={styles.listItem}>
@@ -57,6 +57,9 @@ App.jsx
 	</li>
   </ul>
 </navbar>
+...
+///rest van de return van de app.jsx
+...
 ```
 Dit is een eenvoudig voorbeeld van een navbar. De styling kan je zelf doen.
 

@@ -38,4 +38,4 @@ Voeg de onClick event toe aan de cookie.
 ## Resultaat
 Als we nu op de knop drukken, dan wordt de functie `cookieClick()` uitgevoerd. Als we in de console kijken, dan zien we dat de score omhoog gaat. Maar als we op onze website zelf kijken, dan gebeurt er niks. Dat komt omdat de score variabele wel verandert, maar we geven niet aan dat de website iets moet veranderen. Om te zorgen dat de wijziging van score weergeven wordt, moeten we het component opnieuw renderen. 
 
-[Rerenderen en State](4State)
+[Volgend hoofdstuke: Rerenderen en State](4State)
