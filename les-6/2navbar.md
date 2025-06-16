@@ -31,7 +31,7 @@ export function About(){
 			<h1>About</h1>
 			<AboutMe/>
 			<Top10/>
-		<main>
+		</main>
 	)
 }
 ```
