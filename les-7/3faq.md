@@ -85,4 +85,8 @@ export function FAQ(){
 
 
 ## Styling
-Style de componenten.
+Style de componenten. 
+
+---
+
+Dit is het einde van deze les. Volgende les gaan we aan de slag met een groter project.
