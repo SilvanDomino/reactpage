@@ -59,4 +59,4 @@ Als we de list items willen gaan stylen, dan wordt de code groot en complex. Dan
 </li>
 ```
 
-[Volgende stap: Props]
+[Volgende stap: Props](3props)
